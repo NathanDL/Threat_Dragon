@@ -1,0 +1,34 @@
+{
+  "version": "2.3.0",
+  "summary": {
+    "title": "Threat Model for Project ERP - Core Finance: Cloud-Hosted Environments",
+    "owner": "",
+    "description": "Threat modelling for the ERP - Core Finance project, with a specific focus on the Dynamics 365 Finance & Operations (F&O) Cloud-Hosted Environments (CHEs) used for extension (customisation) development and other non-Production scenarios.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Nathan Latton"
+      },
+      {
+        "name": "Soing Kim"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Main Data Flows",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0",
+        "cells": [],
+        "description": "Data flows that relate to F&O CHEs"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Mark Bedford - SFF Cyber Security Analyst",
+    "threatTop": 0
+  }
+}
