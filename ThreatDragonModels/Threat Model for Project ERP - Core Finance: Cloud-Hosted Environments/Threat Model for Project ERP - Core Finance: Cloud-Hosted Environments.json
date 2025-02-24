@@ -84,6 +84,32 @@
           },
           {
             "position": {
+              "x": 284,
+              "y": 29.99999999999818
+            },
+            "size": {
+              "width": 870,
+              "height": 410
+            },
+            "attrs": {
+              "label": {
+                "text": "SFF Azure Tenant"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "a3e42ba8-469b-463e-b871-d9b39b1c54e4",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "SFF Azure Tenant",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 550,
               "y": 220
             },
@@ -326,8 +352,8 @@
           },
           {
             "position": {
-              "x": 538.75,
-              "y": 460
+              "x": 38.75,
+              "y": 499.99999999999966
             },
             "size": {
               "width": 112.5,
