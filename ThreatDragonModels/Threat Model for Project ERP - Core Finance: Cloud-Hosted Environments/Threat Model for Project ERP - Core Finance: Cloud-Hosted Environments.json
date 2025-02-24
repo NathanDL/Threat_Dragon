@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "summary": {
     "title": "Threat Model for Project ERP - Core Finance: Cloud-Hosted Environments",
     "owner": "",
@@ -22,11 +22,11 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.3.0",
+        "version": "2.4.0",
         "cells": [
           {
             "position": {
-              "x": 430,
+              "x": 429.99999999999994,
               "y": 120
             },
             "size": {
@@ -34,14 +34,17 @@
               "height": 270
             },
             "attrs": {
+              "label": {
+                "text": "Cloud-Hosted Environment"
+              },
               "headerText": {
                 "text": "Cloud-Hosted Environment"
               }
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "14d2f1fd-fa81-4fac-a0d2-73327b648515",
             "zIndex": -1,
+            "id": "14d2f1fd-fa81-4fac-a0d2-73327b648515",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Cloud-Hosted Environment",
@@ -52,22 +55,25 @@
           },
           {
             "position": {
-              "x": 334,
-              "y": 74.9999999999998
+              "x": 344.66666666666663,
+              "y": 70
             },
             "size": {
               "width": 746.6666666666667,
               "height": 350
             },
             "attrs": {
+              "label": {
+                "text": "SFF Azure Subscription: sff-d365-finops-sub-dev-01"
+              },
               "headerText": {
                 "text": "SFF Azure Subscription: sff-d365-finops-sub-dev-01"
               }
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f877095f-5a7b-47cc-9909-87acea64c6d4",
             "zIndex": -1,
+            "id": "f877095f-5a7b-47cc-9909-87acea64c6d4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "SFF Azure Subscription: sff-d365-finops-sub-dev-01",
@@ -97,6 +103,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -180,7 +187,6 @@
               ]
             },
             "id": "fe7b4da8-2146-4a2a-8418-f17cb4e98990",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Visual Studio",
@@ -219,6 +225,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -302,7 +309,6 @@
               ]
             },
             "id": "bc1f87b2-41af-4a6a-97af-5c21d3792438",
-            "zIndex": 2,
             "data": {
               "type": "tm.Store",
               "name": "SQL Server DB",
@@ -339,6 +345,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -422,7 +429,6 @@
               ]
             },
             "id": "7252e6ea-f281-4b04-ad05-cd48fdbfafa0",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "F&O Developer",
@@ -455,6 +461,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -538,7 +545,6 @@
               ]
             },
             "id": "6e6c559a-612a-4de2-a624-d5befd6489ef",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Lifecycle Services",
