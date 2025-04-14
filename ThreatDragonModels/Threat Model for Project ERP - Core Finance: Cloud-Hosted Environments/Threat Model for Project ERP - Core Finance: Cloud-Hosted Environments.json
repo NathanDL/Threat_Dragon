@@ -752,93 +752,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "6de37a64-a392-48a0-9996-b5b5c017ba19",
-            "source": {
-              "x": 50,
-              "y": 230
-            },
-            "target": {
-              "x": 430,
-              "y": 230
-            },
-            "vertices": [
-              {
-                "x": 140,
-                "y": 230
-              },
-              {
-                "x": 160,
-                "y": 210
-              },
-              {
-                "x": 180,
-                "y": 200
-              },
-              {
-                "x": 220,
-                "y": 200
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1021,6 +934,226 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Review Source Code",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Review Source Code"
+            ],
+            "id": "09e8eb59-08e7-431e-8ab0-4acfa09535bc",
+            "source": {
+              "x": 40,
+              "y": 530
+            },
+            "target": {
+              "cell": "c64d12bc-44ad-40c2-bdaf-e2a4661f2891",
+              "port": "635e1035-896f-411b-bbb4-08f8077a42dc"
+            },
+            "vertices": [
+              {
+                "x": -280,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Public Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Public Internet"
+            ],
+            "id": "2bcbdd62-96b8-4ef7-ad92-8af963d6d370",
+            "source": {
+              "x": -220,
+              "y": 70
+            },
+            "target": {
+              "x": -128,
+              "y": 170
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Provision \nCloud-Hosted Environment",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Provision \nCloud-Hosted Environment"
+            ],
+            "id": "6de37a64-a392-48a0-9996-b5b5c017ba19",
+            "source": {
+              "x": 50,
+              "y": 230
+            },
+            "target": {
+              "x": 280,
+              "y": 190
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 230
+              },
+              {
+                "x": 160,
+                "y": 210
+              },
+              {
+                "x": 200,
+                "y": 210
+              },
+              {
+                "x": 220,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Public Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Public Internet"
+            ],
+            "id": "e334c27a-241d-4bca-b520-6746b765ea6b",
+            "source": {
+              "x": 1006,
+              "y": 580
+            },
+            "target": {
+              "x": 1190,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 1110,
+                "y": 540
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Test application",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Test application"
+            ],
+            "id": "af085f6d-f2de-4d8c-b8e5-44928f78d101",
+            "source": {
+              "cell": "d00c494f-b6de-4ab9-8607-1176da1feabc",
+              "port": "08c0de95-bca4-44e7-b603-81fd1c413891"
+            },
+            "target": {
+              "cell": "67ee4693-4fc6-495d-b66f-ced0f044754b",
+              "port": "63109369-7966-4f5c-8a3d-f687ca572fb0"
+            },
+            "vertices": [
+              {
+                "x": 1100,
+                "y": 540
+              }
+            ]
+          },
+          {
             "position": {
               "x": 888,
               "y": 195
@@ -1041,6 +1174,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1124,7 +1258,6 @@
               ]
             },
             "id": "67ee4693-4fc6-495d-b66f-ced0f044754b",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -1160,6 +1293,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1243,7 +1377,6 @@
               ]
             },
             "id": "c64d12bc-44ad-40c2-bdaf-e2a4661f2891",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Azure DevOps",
@@ -1255,6 +1388,122 @@
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1210,
+              "y": 580
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Tester"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1038dd07-2f23-4a72-973a-0e231e30cb05"
+                },
+                {
+                  "group": "right",
+                  "id": "8e8ed1e4-eaa3-4838-a446-aff386a6d004"
+                },
+                {
+                  "group": "bottom",
+                  "id": "68956f5b-a880-4457-a566-20df1c803a58"
+                },
+                {
+                  "group": "left",
+                  "id": "08c0de95-bca4-44e7-b603-81fd1c413891"
+                }
+              ]
+            },
+            "id": "d00c494f-b6de-4ab9-8607-1176da1feabc",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Tester",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
               "threats": []
             }
           }
